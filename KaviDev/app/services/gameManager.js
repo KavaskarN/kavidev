@@ -2,7 +2,7 @@ alphaApp.factory("gameMgr", function(){
     var self = this,
         userData = { isLoggedIn: false };
     
-    self.el = new Everlive('3293rO0nrTkKnhxM');
+    self.el = new Everlive('AqvuOv8S2i4sjoyk');
     self.isLoggedIn = false;
     
     self.saveGame = function(game){
