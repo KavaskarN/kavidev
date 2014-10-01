@@ -6,8 +6,8 @@
     function LoginController($scope, gameMgr) {
         
         $scope.isLoggedIn = false;
-        $scope.username = "smichelotti";
-        $scope.password = "123";
+        $scope.username = "";
+        $scope.password = "";
         
         $scope.login = function(){
             gameMgr.login($scope.username, $scope.password, function(){

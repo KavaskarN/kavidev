@@ -25,4 +25,4 @@
     };
 })(window);
 
-var alphaApp = angular.module("alphaApp", []);
+var alphaApp = angular.module("kavidev", []);
