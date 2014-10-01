@@ -9,7 +9,7 @@
     }, false);
 
     app.application = new kendo.mobile.Application(document.body, { layout: "tabstrip-layout", statusBarStyle: statusBarStyle, skin: "flat" });
-    app.el = new Everlive('3293rO0nrTkKnhxM');
+    app.el = new Everlive('AqvuOv8S2i4sjoyk');
 
     app.changeSkin = function (e) {
         if (e.sender.element.text() === "Flat") {
